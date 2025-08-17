@@ -22,6 +22,11 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    lzi: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod/',
+        name: '量子资源站',
+        adult: false
+    },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
